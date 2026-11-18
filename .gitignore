@@ -1,0 +1,50 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+
+# AI agents / local configs / secrets
+.claude/
+.codex/
+.cursor/
+.mcp.json
+CLAUDE.local.md
+.env
+.env.*
+*.log
+
+# Node
+node_modules/
+
+# Godot
+.godot/
+.import/
+export_credentials.cfg
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+
+# Unreal
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Blender backups
+*.blend1
+*.blend2
+
+# Built games go to GitHub Releases, not into git
+*.exe
+*.pck
+*.pdb
